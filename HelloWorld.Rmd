@@ -1,0 +1,22 @@
+---
+title: "HelloWorld"
+author: "Victor Martinez-Arias"
+date: "May 15, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is markdown file
+
+```{r pressure, echo=FALSE}
+library(jpeg)
+Mileva<-readJPEG("/home/vmartinezarias/Dropbox/Data science/Tareas/Tarea 1/datasciencecoursera/retronovamile.jpeg")
+```
+
+
+This is my dog, Mileva:
+\
+`r Mileva` 
